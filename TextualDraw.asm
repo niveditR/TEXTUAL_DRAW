@@ -1,12 +1,14 @@
 . DRAW
 . enter a command (or more commands) to stdin and press enter to draw
 . commands:
-. - h : displays help on stdout
-. - w, a, s, d : up, left, down, right
-. - f : changes drawing symbol to next typed character
-. - c : clears the screen and returns to center
-. - p : fills the screen with drawing symbol
-. - q : halt
+. - key				:			function
+. ----------------------------------------------------------------------------------------------------
+. - h 				: 			displays help on stdout
+. - w, a, s, d 			: 			up, left, down, right
+. - f 				: 			changes drawing symbol to next typed character
+. - c 				: 			clears the screen and returns to center
+. - p 				: 			fills the screen with drawing symbol
+. - q 				: 			halt
 .
 . examples:    'aaaa wwww dddd ssss' -> draws a 4x4 square
 .              'f.' -> changes drawing symbol to '.'
